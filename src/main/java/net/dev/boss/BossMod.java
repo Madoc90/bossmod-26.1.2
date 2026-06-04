@@ -1,5 +1,6 @@
 package net.dev.boss;
 
+import net.dev.boss.creativemodetab.ModCreativeModeTabs;
 import net.dev.boss.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -31,6 +32,8 @@ public class BossMod {
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+
+        ModCreativeModeTabs.register(modEventBus);
 
 
         NeoForge.EVENT_BUS.register(this);
