@@ -1,5 +1,6 @@
 package net.dev.boss;
 
+import net.dev.boss.block.ModBlocks;
 import net.dev.boss.creativemodetab.ModCreativeModeTabs;
 import net.dev.boss.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,6 +33,7 @@ public class BossMod {
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
 
@@ -51,9 +53,7 @@ public class BossMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.CURSED_INGOT);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

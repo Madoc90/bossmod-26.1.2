@@ -1,6 +1,7 @@
 package net.dev.boss.datagen;
 
 import net.dev.boss.BossMod;
+import net.dev.boss.block.ModBlocks;
 import net.dev.boss.item.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -18,5 +19,8 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.CURSED_INGOT.get(), ModelTemplates.FLAT_ITEM);
 
 
+        /* BLOCKS */
+        blockModels.createTrivialCube(ModBlocks.CURSED_BLOCK.get());
+        blockModels.createTrivialCube(ModBlocks.CURSED_ORE.get());
     }
 }

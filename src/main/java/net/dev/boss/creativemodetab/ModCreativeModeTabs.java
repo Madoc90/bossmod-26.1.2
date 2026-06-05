@@ -1,6 +1,7 @@
 package net.dev.boss.creativemodetab;
 
 import net.dev.boss.BossMod;
+import net.dev.boss.block.ModBlocks;
 import net.dev.boss.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -27,10 +28,11 @@ public class ModCreativeModeTabs {
 
 
     public static final Supplier<CreativeModeTab> CURSED_BLOCKS = CREATIVE_MODE_TABS.register("cursed_blocks",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CURSED_INGOT.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.CURSED_BLOCK.get()))
                     .title(Component.translatable("creativetab.bossmod.cursed_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-
+                        output.accept(ModBlocks.CURSED_BLOCK);
+                        output.accept(ModBlocks.CURSED_ORE);
 
 
 

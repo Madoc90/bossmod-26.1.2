@@ -1,6 +1,8 @@
 {
   "item.bossmod.cursed_ingot": "Cursed Ingot",
 
+  "block.bossmod.cursed_block": "Cursed Block",
+  "block.bossmod.cursed_ore": "Cursed Ore",
 
   "creativetab.bossmod.cursed_items": "Cursed Items",
   "creativetab.bossmod.cursed_blocks": "Cursed Blocks"
