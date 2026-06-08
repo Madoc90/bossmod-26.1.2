@@ -2,6 +2,7 @@ package net.dev.boss.datagen;
 
 import net.dev.boss.BossMod;
 import net.dev.boss.block.ModBlocks;
+import net.dev.boss.tags.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -23,5 +24,15 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
 
         tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.CURSED_ORE.get());
+
+        tag(ModTags.Blocks.NEEDS_HERO_TOOL)
+                .add(ModBlocks.CURSED_BLOCK.get())
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_HERO_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_HERO_TOOL);
+
+
     }
 }

@@ -3,6 +3,7 @@ package net.dev.boss;
 import net.dev.boss.datagen.ModBlockLootTableProvider;
 import net.dev.boss.datagen.ModBlockTagsProvider;
 import net.dev.boss.datagen.ModModelProvider;
+import net.dev.boss.datagen.ModRecipeProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
@@ -26,5 +27,7 @@ public class BossModDataGen {
         generator.addProvider(true, new ModBlockTagsProvider(packOutput, lookupProvider));
         generator.addProvider(true, new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
+
+        generator.addProvider(true, new ModRecipeProvider.Runner(packOutput, lookupProvider));
     }
 }

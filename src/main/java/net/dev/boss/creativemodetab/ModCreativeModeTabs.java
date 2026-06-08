@@ -2,6 +2,7 @@ package net.dev.boss.creativemodetab;
 
 import net.dev.boss.BossMod;
 import net.dev.boss.block.ModBlocks;
+import net.dev.boss.food.ModFoods;
 import net.dev.boss.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -33,6 +34,30 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.CURSED_BLOCK);
                         output.accept(ModBlocks.CURSED_ORE);
+
+
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> FOODS = CREATIVE_MODE_TABS.register("foods",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HERO_APPLE.get()))
+                    .title(Component.translatable("creativetab.bossmod.foods"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.HERO_APPLE);
+
+
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> TOOLS = CREATIVE_MODE_TABS.register("tools",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HERO_SWORD.get()))
+                    .title(Component.translatable("creativetab.bossmod.tools"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.HERO_SWORD);
+                        output.accept(ModItems.HERO_PICKAXE);
+                        output.accept(ModItems.HERO_AXE);
+                        output.accept(ModItems.HERO_SHOVEL);
+                        output.accept(ModItems.HERO_HOE);
 
 
 
