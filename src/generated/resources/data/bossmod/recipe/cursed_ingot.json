@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cursed",
+  "ingredients": [
+    "bossmod:cursed_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "bossmod:cursed_ingot"
+  }
+}
