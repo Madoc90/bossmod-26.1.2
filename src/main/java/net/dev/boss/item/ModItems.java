@@ -21,6 +21,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> HERO_SWORD = ITEMS.registerItem("hero_sword",
             properties -> new Item(properties.sword(ModToolTiers.HERO, 4, -2.4f)));
+    public static final DeferredItem<Item> SWORD_OF_STEVE = ITEMS.registerItem("sword_of_steve",
+            properties -> new Item(properties.sword(ModToolTiers.HERO, 4, -2.4f)));
     public static final DeferredItem<Item> HERO_PICKAXE = ITEMS.registerItem("hero_pickaxe",
             properties -> new Item(properties.pickaxe(ModToolTiers.HERO, 2, -2.6f)));
     public static final DeferredItem<Item> HERO_SHOVEL = ITEMS.registerItem("hero_shovel",

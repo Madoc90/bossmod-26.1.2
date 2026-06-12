@@ -20,6 +20,7 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.HERO_APPLE.get(), ModelTemplates.FLAT_ITEM);
 
         itemModels.generateFlatItem(ModItems.HERO_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModels.generateFlatItem(ModItems.SWORD_OF_STEVE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.HERO_PICKAXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.HERO_AXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.HERO_SHOVEL.get(), ModelTemplates.FLAT_HANDHELD_ITEM);

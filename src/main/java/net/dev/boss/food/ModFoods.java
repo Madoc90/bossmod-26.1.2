@@ -11,6 +11,10 @@ public class ModFoods {
     public static final FoodProperties HERO_APPLE = new FoodProperties.Builder().nutrition(7).saturationModifier(3f).alwaysEdible().build();
 
     public static final Consumable HERO_APPLE_CONSUMABLE = Consumables.defaultFood()
-            .consumeSeconds(0.7f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 4000), 100f)).build();
+            .consumeSeconds(0.7f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 4000), 100f))
+            .consumeSeconds(0.7f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.ABSORPTION, 3000), 100f))
+            .consumeSeconds(0.7f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 1000), 100f))
+
+            .build();
 
 }

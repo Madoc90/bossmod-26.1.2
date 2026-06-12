@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "cursed",
+  "key": {
+    "A": "bossmod:cursed_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "A",
+    "A",
+    "S"
+  ],
+  "result": {
+    "id": "bossmod:hero_sword"
+  }
+}

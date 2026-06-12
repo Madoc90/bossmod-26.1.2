@@ -2,7 +2,6 @@ package net.dev.boss.creativemodetab;
 
 import net.dev.boss.BossMod;
 import net.dev.boss.block.ModBlocks;
-import net.dev.boss.food.ModFoods;
 import net.dev.boss.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -58,6 +57,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HERO_AXE);
                         output.accept(ModItems.HERO_SHOVEL);
                         output.accept(ModItems.HERO_HOE);
+                        output.accept(ModItems.SWORD_OF_STEVE);
 
 
 

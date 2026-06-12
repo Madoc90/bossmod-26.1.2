@@ -33,5 +33,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         tag(ItemTags.SHOVELS).add(ModItems.HERO_SHOVEL.get());
         tag(ItemTags.HOES).add(ModItems.HERO_HOE.get());
 
+        tag(ItemTags.SWORDS).add(ModItems.SWORD_OF_STEVE.get());
+
     }
 }
