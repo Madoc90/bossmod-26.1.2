@@ -22,10 +22,14 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(Items.IRON_INGOT)
                 .add(Items.REDSTONE)
                 .add(Items.COPPER_INGOT)
-                .add(ModItems.CURSED_INGOT.get());
+                .add(ModItems.CURSED_INGOT.get())
+                .add(ModItems.DIAMOND_INGOT.get());
 
         tag(ModTags.Items.CURSED_REPAIRABLE)
                 .add(ModItems.CURSED_INGOT.get());
+
+        tag(ModTags.Items.DIAMOND_REPAIRABLE)
+                .add(ModItems.DIAMOND_INGOT.get());
 
         tag(ItemTags.SWORDS).add(ModItems.HERO_SWORD.get());
         tag(ItemTags.PICKAXES).add(ModItems.HERO_PICKAXE.get());

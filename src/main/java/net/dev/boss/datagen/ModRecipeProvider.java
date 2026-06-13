@@ -99,6 +99,17 @@ public class ModRecipeProvider extends RecipeProvider {
                 .group("cursed")
                 .save(output);
 
+        shaped(RecipeCategory.COMBAT, ModItems.SWORD_OF_STEVE.get())
+                .pattern("A")
+                .pattern("A")
+                .pattern("S")
+                .define('A', ModItems.DIAMOND_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.CURSED_INGOT.get()), has(ModItems.CURSED_INGOT))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .group("diamond")
+                .save(output);
+
         shapeless(RecipeCategory.MISC, ModItems.CURSED_INGOT.get(), 9)
                 .requires(ModBlocks.CURSED_BLOCK)
                 .unlockedBy(getHasName(ModBlocks.CURSED_BLOCK.get()), has(ModBlocks.CURSED_BLOCK))

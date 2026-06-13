@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.bossmod.cursed_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.CURSED_INGOT);
+                        output.accept(ModItems.DIAMOND_INGOT);
 
 
 
