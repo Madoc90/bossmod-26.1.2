@@ -3,7 +3,6 @@ package net.dev.boss;
 import net.dev.boss.block.ModBlocks;
 import net.dev.boss.creativemodetab.ModCreativeModeTabs;
 import net.dev.boss.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -32,10 +31,13 @@ public class BossMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
+
+
 
 
         NeoForge.EVENT_BUS.register(this);
