@@ -1,7 +1,9 @@
 {
   "item.bossmod.cursed_ingot": "Cursed Ingot",
   "item.bossmod.diamond_ingot": "Diamond Ingot",
+
   "item.bossmod.hero_apple": "Hero Apple",
+  "item.bossmod.cursed_bread": "Cursed Bread",
 
   "item.bossmod.hero_sword": "Hero Sword",
   "item.bossmod.sword_of_steve": "Sword of Steve",
@@ -10,11 +12,17 @@
   "item.bossmod.hero_shovel": "Hero Shovel",
   "item.bossmod.hero_hoe": "Hero Hoe",
 
+  "item.bossmod.hero_helmet": "Hero Helmet",
+  "item.bossmod.hero_chestplate": "Hero Chestplate",
+  "item.bossmod.hero_leggings": "Hero Leggings",
+  "item.bossmod.hero_boots": "Hero Boots",
+
   "block.bossmod.cursed_block": "Cursed Block",
   "block.bossmod.cursed_ore": "Cursed Ore",
 
   "creativetab.bossmod.cursed_items": "Cursed Items",
   "creativetab.bossmod.cursed_blocks": "Cursed Blocks",
   "creativetab.bossmod.foods": "Food",
-  "creativetab.bossmod.tools": "Tools"
+  "creativetab.bossmod.tools": "Tools",
+  "creativetab.bossmod.armor": "Armor"
 }

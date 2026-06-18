@@ -44,6 +44,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.bossmod.foods"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.HERO_APPLE);
+                        output.accept(ModItems.CURSED_BREAD);
 
 
 
@@ -59,6 +60,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HERO_SHOVEL);
                         output.accept(ModItems.HERO_HOE);
                         output.accept(ModItems.SWORD_OF_STEVE);
+
+
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> ARMOR = CREATIVE_MODE_TABS.register("armor",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HERO_CHESTPLATE.get()))
+                    .title(Component.translatable("creativetab.bossmod.tools"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.HERO_HELMET);
+                        output.accept(ModItems.HERO_CHESTPLATE);
+                        output.accept(ModItems.HERO_LEGGINGS);
+                        output.accept(ModItems.HERO_BOOTS);
 
 
 

@@ -19,6 +19,7 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.CURSED_INGOT.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.HERO_APPLE.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.DIAMOND_INGOT.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.CURSED_BREAD.get(), ModelTemplates.FLAT_ITEM);
 
         itemModels.generateFlatItem(ModItems.HERO_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.SWORD_OF_STEVE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);

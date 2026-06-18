@@ -39,7 +39,6 @@ public class BossMod {
 
 
 
-
         NeoForge.EVENT_BUS.register(this);
 
         // Register the item to a creative tab

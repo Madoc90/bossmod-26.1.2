@@ -105,7 +105,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("S")
                 .define('A', ModItems.DIAMOND_INGOT.get())
                 .define('S', Items.STICK)
-                .unlockedBy(getHasName(ModItems.CURSED_INGOT.get()), has(ModItems.CURSED_INGOT))
+                .unlockedBy(getHasName(ModItems.DIAMOND_INGOT.get()), has(ModItems.DIAMOND_INGOT))
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                 .group("diamond")
                 .save(output);
