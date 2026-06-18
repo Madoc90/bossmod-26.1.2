@@ -20,10 +20,12 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.CURSED_BLOCK.get())
-                .add(ModBlocks.CURSED_ORE.get());
+                .add(ModBlocks.CURSED_ORE.get())
+                .add(ModBlocks.DIAMONDINIUM_ORE.get());
 
         tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
-                .add(ModBlocks.CURSED_ORE.get());
+                .add(ModBlocks.CURSED_ORE.get())
+                .add(ModBlocks.DIAMONDINIUM_ORE.get());
 
         tag(ModTags.Blocks.NEEDS_HERO_TOOL)
                 .add(ModBlocks.CURSED_BLOCK.get())

@@ -26,6 +26,10 @@ public class ModBlocks {
             properties -> new DropExperienceBlock(UniformInt.of(2, 4),properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> DIAMONDINIUM_ORE = registerBlock("diamondinium_ore",
+            properties -> new DropExperienceBlock(UniformInt.of(5, 7),properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {

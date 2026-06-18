@@ -32,5 +32,6 @@ public class ModModelProvider extends ModelProvider {
         /* BLOCKS */
         blockModels.createTrivialCube(ModBlocks.CURSED_BLOCK.get());
         blockModels.createTrivialCube(ModBlocks.CURSED_ORE.get());
+        blockModels.createTrivialCube(ModBlocks.DIAMONDINIUM_ORE.get());
     }
 }
