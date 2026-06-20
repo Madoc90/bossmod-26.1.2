@@ -34,6 +34,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.CURSED_BLOCK);
                         output.accept(ModBlocks.CURSED_ORE);
+                        output.accept(ModBlocks.DIAMONDINIUM_ORE);
 
 
 

@@ -36,15 +36,6 @@ public class ModItems {
     public static final DeferredItem<Item> HERO_HOE = ITEMS.registerItem("hero_hoe",
             properties -> new HoeItem(ModToolTiers.HERO, 0, -3.0f, properties));
 
-    public static final DeferredItem<Item> HERO_HELMET = ITEMS.registerItem("hero_helmet",
-            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.CURSED_ARMOR_MATERIAL, ArmorType.HELMET)));
-    public static final DeferredItem<Item> HERO_CHESTPLATE = ITEMS.registerItem("hero_chestplate",
-            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.CURSED_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
-    public static final DeferredItem<Item> HERO_LEGGINGS = ITEMS.registerItem("hero_leggings",
-            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.CURSED_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
-    public static final DeferredItem<Item> HERO_BOOTS = ITEMS.registerItem("hero_boots",
-            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.CURSED_ARMOR_MATERIAL, ArmorType.BOOTS)));
-
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
