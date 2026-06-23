@@ -16,7 +16,6 @@ public class ModFoods {
             .consumeSeconds(0.7f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.ABSORPTION, 3000), 100f))
             .consumeSeconds(0.7f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 1000), 100f))
 
-
             .build();
 
     public static final Consumable CURSED_BREAD_CONSUMABLE = Consumables.defaultFood()

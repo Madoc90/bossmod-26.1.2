@@ -28,7 +28,6 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
-
     public static final Supplier<CreativeModeTab> CURSED_BLOCKS = CREATIVE_MODE_TABS.register("cursed_blocks",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.CURSED_BLOCK.get()))
                     .title(Component.translatable("creativetab.bossmod.cursed_blocks"))
@@ -67,7 +66,6 @@ public class ModCreativeModeTabs {
 
 
                     }).build());
-
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
