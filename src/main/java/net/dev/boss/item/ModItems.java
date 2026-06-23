@@ -17,6 +17,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> CURSED_INGOT = ITEMS.registerSimpleItem("cursed_ingot");
     public static final DeferredItem<Item> DIAMOND_INGOT = ITEMS.registerSimpleItem("diamond_ingot");
+    public static final DeferredItem<Item> HOLLOW_GEM = ITEMS.registerSimpleItem("hollow_gem");
 
     public static final DeferredItem<Item> HERO_APPLE = ITEMS.registerItem("hero_apple",
             properties -> new Item(properties.food(ModFoods.HERO_APPLE, ModFoods.HERO_APPLE_CONSUMABLE)));

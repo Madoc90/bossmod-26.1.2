@@ -24,6 +24,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         add(ModBlocks.DIAMONDINIUM_ORE.get(),
                 createOreDrop(ModBlocks.DIAMONDINIUM_ORE.get(), ModItems.DIAMOND_INGOT.get()));
+
+        add(ModBlocks.HOLLOWSTONE_ORE.get(),
+                createOreDrop(ModBlocks.HOLLOWSTONE_ORE.get(), ModItems.HOLLOW_GEM.get()));
     }
 
     @Override

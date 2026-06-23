@@ -1,6 +1,7 @@
 {
   "item.bossmod.cursed_ingot": "Cursed Ingot",
   "item.bossmod.diamond_ingot": "Diamond Ingot",
+  "item.bossmod.hollow_gem": "Hollow Gem",
 
   "item.bossmod.hero_apple": "Hero Apple",
   "item.bossmod.cursed_bread": "Cursed Bread",
@@ -15,6 +16,7 @@
   "block.bossmod.cursed_block": "Cursed Block",
   "block.bossmod.cursed_ore": "Cursed Ore",
   "block.bossmod.diamondinium_ore": "Diamondinium Ore",
+  "block.bossmod.hollowstone_ore": "Hollowstone Ore",
 
   "creativetab.bossmod.cursed_items": "Cursed Items",
   "creativetab.bossmod.cursed_blocks": "Cursed Blocks",

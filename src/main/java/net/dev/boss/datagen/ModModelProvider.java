@@ -20,6 +20,7 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.HERO_APPLE.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.DIAMOND_INGOT.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.CURSED_BREAD.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.HOLLOW_GEM.get(), ModelTemplates.FLAT_ITEM);
 
         itemModels.generateFlatItem(ModItems.HERO_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.SWORD_OF_STEVE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
@@ -33,5 +34,6 @@ public class ModModelProvider extends ModelProvider {
         blockModels.createTrivialCube(ModBlocks.CURSED_BLOCK.get());
         blockModels.createTrivialCube(ModBlocks.CURSED_ORE.get());
         blockModels.createTrivialCube(ModBlocks.DIAMONDINIUM_ORE.get());
+        blockModels.createTrivialCube(ModBlocks.HOLLOWSTONE_ORE.get());
     }
 }

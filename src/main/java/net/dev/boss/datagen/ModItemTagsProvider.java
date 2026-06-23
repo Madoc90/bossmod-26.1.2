@@ -23,7 +23,8 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(Items.REDSTONE)
                 .add(Items.COPPER_INGOT)
                 .add(ModItems.CURSED_INGOT.get())
-                .add(ModItems.DIAMOND_INGOT.get());
+                .add(ModItems.DIAMOND_INGOT.get())
+                .add(ModItems.HOLLOW_GEM.get());
 
         tag(ModTags.Items.CURSED_REPAIRABLE)
                 .add(ModItems.CURSED_INGOT.get());

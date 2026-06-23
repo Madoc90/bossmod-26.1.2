@@ -30,6 +30,10 @@ public class ModBlocks {
             properties -> new DropExperienceBlock(UniformInt.of(5, 7),properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> HOLLOWSTONE_ORE = registerBlock("hollowstone_ore",
+            properties -> new DropExperienceBlock(UniformInt.of(5, 7),properties.strength(5f)
+                    .requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {

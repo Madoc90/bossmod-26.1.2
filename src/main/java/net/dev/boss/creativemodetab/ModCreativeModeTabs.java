@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.CURSED_INGOT);
                         output.accept(ModItems.DIAMOND_INGOT);
+                        output.accept(ModItems.HOLLOW_GEM);
 
 
 
@@ -35,6 +36,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CURSED_BLOCK);
                         output.accept(ModBlocks.CURSED_ORE);
                         output.accept(ModBlocks.DIAMONDINIUM_ORE);
+                        output.accept(ModBlocks.HOLLOWSTONE_ORE);
 
 
 
@@ -45,6 +47,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.bossmod.foods"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.HERO_APPLE);
+                        output.accept(ModItems.CURSED_BREAD);
 
 
 
