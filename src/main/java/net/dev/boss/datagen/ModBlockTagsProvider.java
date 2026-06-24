@@ -23,14 +23,16 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(ModBlocks.CURSED_BLOCK.get())
                 .add(ModBlocks.CURSED_ORE.get())
                 .add(ModBlocks.DIAMONDINIUM_ORE.get())
-                .add(ModBlocks.HOLLOWSTONE_ORE.get());
+                .add(ModBlocks.HOLLOWSTONE_ORE.get())
+                .add(ModBlocks.DIAMONDINIUM_BLOCK.get());
 
         tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.CURSED_ORE.get())
                 .add(ModBlocks.HOLLOWSTONE_ORE.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.DIAMONDINIUM_ORE.get());
+                .add(ModBlocks.DIAMONDINIUM_ORE.get())
+                .add(ModBlocks.DIAMONDINIUM_BLOCK.get());
 
         tag(ModTags.Blocks.NEEDS_HERO_TOOL)
                 .add(ModBlocks.CURSED_BLOCK.get())

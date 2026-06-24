@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "diamond",
+  "ingredients": [
+    "bossmod:diamondinium_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "bossmod:diamond_ingot"
+  }
+}

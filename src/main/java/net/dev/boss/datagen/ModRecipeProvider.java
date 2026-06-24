@@ -44,6 +44,15 @@ public class ModRecipeProvider extends RecipeProvider {
                 .group("cursed")
                 .save(output);
 
+        shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIAMONDINIUM_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.DIAMOND_INGOT.get())
+                .unlockedBy(getHasName(ModItems.DIAMOND_INGOT.get()), has(ModItems.DIAMOND_INGOT))
+                .group("cursed")
+                .save(output);
+
         shaped(RecipeCategory.TOOLS, ModItems.HERO_PICKAXE.get())
                 .pattern("AAA")
                 .pattern(" S ")
@@ -116,5 +125,10 @@ public class ModRecipeProvider extends RecipeProvider {
                 .group("cursed")
                 .save(output);
 
+        shapeless(RecipeCategory.MISC, ModItems.DIAMOND_INGOT.get(), 9)
+                .requires(ModBlocks.DIAMONDINIUM_BLOCK)
+                .unlockedBy(getHasName(ModBlocks.DIAMONDINIUM_BLOCK.get()), has(ModBlocks.DIAMONDINIUM_BLOCK))
+                .group("diamond")
+                .save(output);
     }
 }

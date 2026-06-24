@@ -36,6 +36,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CURSED_ORE);
                         output.accept(ModBlocks.DIAMONDINIUM_ORE);
                         output.accept(ModBlocks.HOLLOWSTONE_ORE);
+                        output.accept(ModBlocks.DIAMONDINIUM_BLOCK);
 
 
 

@@ -18,6 +18,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.CURSED_BLOCK.get());
+        dropSelf(ModBlocks.DIAMONDINIUM_BLOCK.get());
 
         add(ModBlocks.CURSED_ORE.get(),
                 createOreDrop(ModBlocks.CURSED_ORE.get(), ModItems.CURSED_INGOT.get()));

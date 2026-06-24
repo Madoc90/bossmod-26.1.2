@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cursed",
+  "key": {
+    "A": "bossmod:diamond_ingot"
+  },
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "id": "bossmod:diamondinium_block"
+  }
+}

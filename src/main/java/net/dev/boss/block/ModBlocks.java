@@ -2,6 +2,10 @@ package net.dev.boss.block;
 
 import net.dev.boss.BossMod;
 import net.dev.boss.item.ModItems;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.sounds.Sound;
+import net.minecraft.client.sounds.SoundEngine;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
@@ -33,6 +37,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> HOLLOWSTONE_ORE = registerBlock("hollowstone_ore",
             properties -> new DropExperienceBlock(UniformInt.of(5, 7),properties.strength(5f)
                     .requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
+    public static final DeferredBlock<Block> DIAMONDINIUM_BLOCK = registerBlock("diamondinium_block",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANCIENT_DEBRIS)));
 
 
 
