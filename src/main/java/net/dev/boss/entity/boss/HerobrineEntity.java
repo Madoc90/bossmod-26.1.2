@@ -1,5 +1,8 @@
 package net.dev.boss.entity.boss;
 
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerBossEvent;
+import net.minecraft.world.BossEvent;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -32,8 +35,11 @@ public class HerobrineEntity extends Monster {
     // This is the method your ModEvents class is looking for!
     public static AttributeSupplier.Builder createAttributes() {
         return Monster.createMonsterAttributes()
-                .add(Attributes.MAX_HEALTH, 5000.0D)
-                .add(Attributes.MOVEMENT_SPEED, 0.25D)
-                .add(Attributes.ATTACK_DAMAGE, 4.0D); // Added base damage since he's a monster
+                .add(Attributes.MAX_HEALTH, 1000.0D)
+                .add(Attributes.MOVEMENT_SPEED, 0.35D)
+                .add(Attributes.ATTACK_DAMAGE, 20.0D)
+                .add(Attributes.FOLLOW_RANGE, 64.0D)
+                .add(Attributes.KNOCKBACK_RESISTANCE, 1.0D);
     }
+
 }
