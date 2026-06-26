@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "relic",
+  "ingredients": [
+    "bossmod:relic_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "bossmod:relic_ingot"
+  }
+}

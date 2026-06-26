@@ -53,6 +53,15 @@ public class ModRecipeProvider extends RecipeProvider {
                 .group("diamond")
                 .save(output);
 
+        shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RELIC_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.RELIC_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RELIC_INGOT.get()), has(ModItems.RELIC_INGOT))
+                .group("diamond")
+                .save(output);
+
         shaped(RecipeCategory.TOOLS, ModItems.HERO_PICKAXE.get())
                 .pattern("AAA")
                 .pattern(" S ")
@@ -164,6 +173,40 @@ public class ModRecipeProvider extends RecipeProvider {
                 .group("diamond")
                 .save(output);
 
+        shaped(RecipeCategory.COMBAT, ModItems.DEATH_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', ModItems.RELIC_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RELIC_INGOT.get()), has(ModItems.RELIC_INGOT))
+                .group("relic")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.DEATH_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.RELIC_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RELIC_INGOT.get()), has(ModItems.RELIC_INGOT))
+                .group("relic")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.DEATH_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.RELIC_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RELIC_INGOT.get()), has(ModItems.RELIC_INGOT))
+                .group("relic")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.DEATH_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.RELIC_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RELIC_INGOT.get()), has(ModItems.RELIC_INGOT))
+                .group("relic")
+                .save(output);
+
         shapeless(RecipeCategory.MISC, ModItems.CURSED_INGOT.get(), 9)
                 .requires(ModBlocks.CURSED_BLOCK)
                 .unlockedBy(getHasName(ModBlocks.CURSED_BLOCK.get()), has(ModBlocks.CURSED_BLOCK))
@@ -174,6 +217,12 @@ public class ModRecipeProvider extends RecipeProvider {
                 .requires(ModBlocks.DIAMONDINIUM_BLOCK)
                 .unlockedBy(getHasName(ModBlocks.DIAMONDINIUM_BLOCK.get()), has(ModBlocks.DIAMONDINIUM_BLOCK))
                 .group("diamond")
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModItems.RELIC_INGOT.get(), 9)
+                .requires(ModBlocks.RELIC_BLOCK)
+                .unlockedBy(getHasName(ModBlocks.RELIC_BLOCK.get()), has(ModBlocks.RELIC_BLOCK))
+                .group("relic")
                 .save(output);
     }
 }

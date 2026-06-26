@@ -19,6 +19,10 @@
   "item.bossmod.hero_chestplate": "Hero Chestplate",
   "item.bossmod.hero_leggings": "Hero Leggings",
   "item.bossmod.hero_boots": "Hero Boots",
+  "item.bossmod.death_helmet": "Death Helmet",
+  "item.bossmod.death_chestplate": "Death Chestplate",
+  "item.bossmod.death_leggings": "Death Leggings",
+  "item.bossmod.death_boots": "Death Boots",
 
   "block.bossmod.cursed_block": "Cursed Block",
   "block.bossmod.cursed_ore": "Cursed Ore",

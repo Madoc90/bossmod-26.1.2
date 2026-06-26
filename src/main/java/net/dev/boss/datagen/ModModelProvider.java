@@ -36,6 +36,10 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateTrimmableItem(ModItems.HERO_CHESTPLATE.get(), ModArmorMaterials.HERO_KEY, ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
         itemModels.generateTrimmableItem(ModItems.HERO_LEGGINGS.get(), ModArmorMaterials.HERO_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
         itemModels.generateTrimmableItem(ModItems.HERO_BOOTS.get(), ModArmorMaterials.HERO_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+        itemModels.generateTrimmableItem(ModItems.DEATH_HELMET.get(), ModArmorMaterials.DEATH_KEY, ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModels.generateTrimmableItem(ModItems.DEATH_CHESTPLATE.get(), ModArmorMaterials.DEATH_KEY, ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModels.generateTrimmableItem(ModItems.DEATH_LEGGINGS.get(), ModArmorMaterials.DEATH_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModels.generateTrimmableItem(ModItems.DEATH_BOOTS.get(), ModArmorMaterials.DEATH_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
 
 
         /* BLOCKS */

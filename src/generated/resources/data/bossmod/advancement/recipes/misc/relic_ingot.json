@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_relic_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:relic_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bossmod:relic_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_relic_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bossmod:relic_ingot"
+    ]
+  }
+}

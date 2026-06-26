@@ -17,10 +17,15 @@ public class ModArmorMaterials {
     public static final ResourceKey<? extends Registry<EquipmentAsset>> ROOT_ID = ResourceKey.createRegistryKey(Identifier.withDefaultNamespace("equipment_asset"));
 
     public static final ResourceKey<EquipmentAsset> HERO_KEY = ResourceKey.create(ROOT_ID, Identifier.fromNamespaceAndPath(BossMod.MOD_ID, "hero"));
+    public static final ResourceKey<EquipmentAsset> DEATH_KEY = ResourceKey.create(ROOT_ID, Identifier.fromNamespaceAndPath(BossMod.MOD_ID, "death"));
 
     public static final ArmorMaterial HERO_ARMOR_MATERIAL = new ArmorMaterial(3800,
             makeDefense(5, 7, 10, 4, 17), 30, SoundEvents.ARMOR_EQUIP_NETHERITE,
             3, 0.6f, ModTags.Items.DIAMOND_REPAIRABLE, HERO_KEY);
+
+    public static final ArmorMaterial DEATH_ARMOR_MATERIAL = new ArmorMaterial(3800,
+            makeDefense(5, 7, 10, 4, 17), 30, SoundEvents.ARMOR_EQUIP_NETHERITE,
+            3, 0.6f, ModTags.Items.RELIC_REPAIRABLE, DEATH_KEY);
 
 
     private static Map<ArmorType, Integer> makeDefense(int boots, int legs, int chest, int helm, int body) {

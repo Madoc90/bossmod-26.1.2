@@ -80,6 +80,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HERO_CHESTPLATE);
                         output.accept(ModItems.HERO_LEGGINGS);
                         output.accept(ModItems.HERO_BOOTS);
+                        output.accept(ModItems.DEATH_HELMET);
+                        output.accept(ModItems.DEATH_CHESTPLATE);
+                        output.accept(ModItems.DEATH_LEGGINGS);
+                        output.accept(ModItems.DEATH_BOOTS);
 
 
                     }).build());

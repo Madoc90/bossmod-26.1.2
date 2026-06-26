@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "bossmod:death"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "bossmod:death"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "bossmod:death"
+      }
+    ]
+  }
+}

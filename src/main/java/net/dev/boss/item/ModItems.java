@@ -48,6 +48,14 @@ public class ModItems {
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.HERO_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
     public static final DeferredItem<Item> HERO_BOOTS = ITEMS.registerItem("hero_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.HERO_ARMOR_MATERIAL, ArmorType.BOOTS)));
+    public static final DeferredItem<Item> DEATH_HELMET = ITEMS.registerItem("death_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.DEATH_ARMOR_MATERIAL, ArmorType.HELMET)));
+    public static final DeferredItem<Item> DEATH_CHESTPLATE = ITEMS.registerItem("death_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.DEATH_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+    public static final DeferredItem<Item> DEATH_LEGGINGS = ITEMS.registerItem("death_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.DEATH_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+    public static final DeferredItem<Item> DEATH_BOOTS = ITEMS.registerItem("death_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.DEATH_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

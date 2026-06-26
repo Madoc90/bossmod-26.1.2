@@ -27,6 +27,7 @@ public class ModTags {
         public static final TagKey<Item> TRANSFORMABLE_ITEMS = createTag("transformable_items");
         public static final TagKey<Item> CURSED_REPAIRABLE = createTag("cursed_repairable");
         public static final TagKey<Item> DIAMOND_REPAIRABLE = createTag("diamond_repairable");
+        public static final TagKey<Item> RELIC_REPAIRABLE = createTag("relic_repairable");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(Identifier.fromNamespaceAndPath(BossMod.MOD_ID, name));

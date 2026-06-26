@@ -26,6 +26,10 @@ public class ModEquipmentAssetProvider implements DataProvider {
         output.accept(ModArmorMaterials.HERO_KEY, EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(BossMod.MOD_ID, "hero"), false)
                 .build());
+
+        output.accept(ModArmorMaterials.DEATH_KEY, EquipmentClientInfo.builder()
+                .addHumanoidLayers(Identifier.fromNamespaceAndPath(BossMod.MOD_ID, "death"), false)
+                .build());
     }
 
     @Override
