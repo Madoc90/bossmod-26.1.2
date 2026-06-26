@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bossmod:block/relic_block"
+    }
+  }
+}

@@ -24,7 +24,8 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(Items.COPPER_INGOT)
                 .add(ModItems.CURSED_INGOT.get())
                 .add(ModItems.DIAMOND_INGOT.get())
-                .add(ModItems.HOLLOW_GEM.get());
+                .add(ModItems.HOLLOW_GEM.get())
+                .add(ModItems.RELIC_INGOT.get());
 
         tag(ModTags.Items.CURSED_REPAIRABLE)
                 .add(ModItems.CURSED_INGOT.get());
@@ -39,6 +40,11 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         tag(ItemTags.HOES).add(ModItems.HERO_HOE.get());
 
         tag(ItemTags.SWORDS).add(ModItems.SWORD_OF_STEVE.get());
+        tag(ItemTags.SWORDS).add(ModItems.SWORD_OF_HEROBRINE.get());
 
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.HERO_HELMET.get());
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.HERO_CHESTPLATE.get());
+        tag(ItemTags.LEG_ARMOR).add(ModItems.HERO_LEGGINGS.get());
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.HERO_BOOTS.get());
     }
 }

@@ -24,7 +24,9 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(ModBlocks.CURSED_ORE.get())
                 .add(ModBlocks.DIAMONDINIUM_ORE.get())
                 .add(ModBlocks.HOLLOWSTONE_ORE.get())
-                .add(ModBlocks.DIAMONDINIUM_BLOCK.get());
+                .add(ModBlocks.DIAMONDINIUM_BLOCK.get())
+                .add(ModBlocks.RELIC_BLOCK.get())
+                .add(ModBlocks.RELIC_ORE.get());
 
         tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.CURSED_ORE.get())
@@ -37,6 +39,10 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.NEEDS_HERO_TOOL)
                 .add(ModBlocks.CURSED_BLOCK.get())
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_HEROBRINE_TOOL)
+                .add(ModBlocks.RELIC_BLOCK.get())
+                .add(ModBlocks.RELIC_ORE.get());
 
         tag(ModTags.Blocks.INCORRECT_FOR_HERO_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)

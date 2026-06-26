@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "diamond",
+  "key": {
+    "A": "bossmod:diamond_ingot"
+  },
+  "pattern": [
+    "AAA",
+    "A A"
+  ],
+  "result": {
+    "id": "bossmod:hero_helmet"
+  }
+}

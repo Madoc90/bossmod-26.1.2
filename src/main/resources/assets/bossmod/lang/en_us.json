@@ -2,22 +2,31 @@
   "item.bossmod.cursed_ingot": "Cursed Ingot",
   "item.bossmod.diamond_ingot": "Diamond Ingot",
   "item.bossmod.hollow_gem": "Hollow Gem",
+  "item.bossmod.relic_ingot": "Relic Ingot",
 
   "item.bossmod.hero_apple": "Hero Apple",
   "item.bossmod.cursed_bread": "Cursed Bread",
 
   "item.bossmod.hero_sword": "Hero Sword",
   "item.bossmod.sword_of_steve": "Sword of Steve",
+  "item.bossmod.sword_of_herobrine": "Sword of Herobrine",
   "item.bossmod.hero_pickaxe": "Hero Pickaxe",
   "item.bossmod.hero_axe": "Hero Axe",
   "item.bossmod.hero_shovel": "Hero Shovel",
   "item.bossmod.hero_hoe": "Hero Hoe",
+
+  "item.bossmod.hero_helmet": "Hero Helmet",
+  "item.bossmod.hero_chestplate": "Hero Chestplate",
+  "item.bossmod.hero_leggings": "Hero Leggings",
+  "item.bossmod.hero_boots": "Hero Boots",
 
   "block.bossmod.cursed_block": "Cursed Block",
   "block.bossmod.cursed_ore": "Cursed Ore",
   "block.bossmod.diamondinium_ore": "Diamondinium Ore",
   "block.bossmod.hollowstone_ore": "Hollowstone Ore",
   "block.bossmod.diamondinium_block": "Diamondinium Block",
+  "block.bossmod.relic_block": "Relic Block",
+  "block.bossmod.relic_ore": "Relic Ore",
 
   "creativetab.bossmod.cursed_items": "Cursed Items",
   "creativetab.bossmod.cursed_blocks": "Cursed Blocks",

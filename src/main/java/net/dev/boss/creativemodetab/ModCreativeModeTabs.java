@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CURSED_INGOT);
                         output.accept(ModItems.DIAMOND_INGOT);
                         output.accept(ModItems.HOLLOW_GEM);
+                        output.accept(ModItems.RELIC_INGOT);
 
 
 
@@ -37,6 +38,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DIAMONDINIUM_ORE);
                         output.accept(ModBlocks.HOLLOWSTONE_ORE);
                         output.accept(ModBlocks.DIAMONDINIUM_BLOCK);
+                        output.accept(ModBlocks.RELIC_BLOCK);
+                        output.accept(ModBlocks.RELIC_ORE);
 
 
 
@@ -63,7 +66,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HERO_SHOVEL);
                         output.accept(ModItems.HERO_HOE);
                         output.accept(ModItems.SWORD_OF_STEVE);
+                        output.accept(ModItems.SWORD_OF_HEROBRINE);
 
+
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> Armor = CREATIVE_MODE_TABS.register("armor",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HERO_HELMET.get()))
+                    .title(Component.translatable("creativetab.bossmod.armor"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.HERO_HELMET);
+                        output.accept(ModItems.HERO_CHESTPLATE);
+                        output.accept(ModItems.HERO_LEGGINGS);
+                        output.accept(ModItems.HERO_BOOTS);
 
 
                     }).build());

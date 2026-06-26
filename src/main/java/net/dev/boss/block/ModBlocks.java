@@ -42,6 +42,14 @@ public class ModBlocks {
             properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.ANCIENT_DEBRIS)));
 
+    public static final DeferredBlock<Block> RELIC_BLOCK = registerBlock("relic_block",
+            properties -> new Block(properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.HEAVY_CORE)));
+
+    public static final DeferredBlock<Block> RELIC_ORE = registerBlock("relic_ore",
+            properties -> new DropExperienceBlock(UniformInt.of(8, 10),properties.strength(5)
+                    .requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {

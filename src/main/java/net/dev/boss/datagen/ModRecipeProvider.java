@@ -50,7 +50,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("AAA")
                 .define('A', ModItems.DIAMOND_INGOT.get())
                 .unlockedBy(getHasName(ModItems.DIAMOND_INGOT.get()), has(ModItems.DIAMOND_INGOT))
-                .group("cursed")
+                .group("diamond")
                 .save(output);
 
         shaped(RecipeCategory.TOOLS, ModItems.HERO_PICKAXE.get())
@@ -116,6 +116,51 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.DIAMOND_INGOT.get()), has(ModItems.DIAMOND_INGOT))
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .group("diamond")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.SWORD_OF_HEROBRINE.get())
+                .pattern("A")
+                .pattern("A")
+                .pattern("S")
+                .define('A', ModItems.DIAMOND_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.DIAMOND_INGOT.get()), has(ModItems.DIAMOND_INGOT))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .group("diamond")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.HERO_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', ModItems.DIAMOND_INGOT.get())
+                .unlockedBy(getHasName(ModItems.DIAMOND_INGOT.get()), has(ModItems.DIAMOND_INGOT))
+                .group("diamond")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.HERO_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.DIAMOND_INGOT.get())
+                .unlockedBy(getHasName(ModItems.DIAMOND_INGOT.get()), has(ModItems.DIAMOND_INGOT))
+                .group("diamond")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.HERO_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.DIAMOND_INGOT.get())
+                .unlockedBy(getHasName(ModItems.DIAMOND_INGOT.get()), has(ModItems.DIAMOND_INGOT))
+                .group("diamond")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.HERO_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.DIAMOND_INGOT.get())
+                .unlockedBy(getHasName(ModItems.DIAMOND_INGOT.get()), has(ModItems.DIAMOND_INGOT))
                 .group("diamond")
                 .save(output);
 

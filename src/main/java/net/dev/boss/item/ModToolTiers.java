@@ -10,4 +10,7 @@ public static final ToolMaterial HERO = new ToolMaterial(ModTags.Blocks.INCORREC
     public static final ToolMaterial STEVE = new ToolMaterial(ModTags.Blocks.INCORRECT_FOR_STEVE_TOOL,
             3000, 3f, 3f, 40, ModTags.Items.DIAMOND_REPAIRABLE);
 
+    public static final ToolMaterial HEROBRINE = new ToolMaterial(ModTags.Blocks.INCORRECT_FOR_HEROBRINE_TOOL,
+            3000, 3f, 3f, 40, ModTags.Items.DIAMOND_REPAIRABLE);
+
 }

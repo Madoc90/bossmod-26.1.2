@@ -19,6 +19,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.CURSED_BLOCK.get());
         dropSelf(ModBlocks.DIAMONDINIUM_BLOCK.get());
+        dropSelf(ModBlocks.RELIC_BLOCK.get());
 
         add(ModBlocks.CURSED_ORE.get(),
                 createOreDrop(ModBlocks.CURSED_ORE.get(), ModItems.CURSED_INGOT.get()));
@@ -28,6 +29,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         add(ModBlocks.HOLLOWSTONE_ORE.get(),
                 createOreDrop(ModBlocks.HOLLOWSTONE_ORE.get(), ModItems.HOLLOW_GEM.get()));
+
+        add(ModBlocks.RELIC_ORE.get(),
+                createOreDrop(ModBlocks.RELIC_ORE.get(), ModItems.RELIC_INGOT.get()));
     }
 
     @Override

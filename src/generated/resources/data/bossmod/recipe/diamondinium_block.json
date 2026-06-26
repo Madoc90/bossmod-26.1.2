@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "cursed",
+  "group": "diamond",
   "key": {
     "A": "bossmod:diamond_ingot"
   },

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "diamond",
+  "key": {
+    "A": "bossmod:diamond_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "A",
+    "A",
+    "S"
+  ],
+  "result": {
+    "id": "bossmod:sword_of_herobrine"
+  }
+}
