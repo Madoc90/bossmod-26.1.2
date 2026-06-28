@@ -51,6 +51,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.HERO_APPLE);
                         output.accept(ModItems.CURSED_BREAD);
+                        output.accept(ModItems.VOID_BERRY);
 
 
 
@@ -84,6 +85,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DEATH_CHESTPLATE);
                         output.accept(ModItems.DEATH_LEGGINGS);
                         output.accept(ModItems.DEATH_BOOTS);
+                        output.accept(ModItems.RELIC_HELMET);
+                        output.accept(ModItems.RELIC_CHESTPLATE);
+                        output.accept(ModItems.RELIC_LEGGINGS);
+                        output.accept(ModItems.RELIC_BOOTS);
 
 
                     }).build());

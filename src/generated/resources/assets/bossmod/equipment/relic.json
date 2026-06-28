@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "bossmod:relic"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "bossmod:relic"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "bossmod:relic"
+      }
+    ]
+  }
+}

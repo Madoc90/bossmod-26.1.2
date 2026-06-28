@@ -50,5 +50,9 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         tag(ItemTags.CHEST_ARMOR).add(ModItems.DEATH_CHESTPLATE.get());
         tag(ItemTags.LEG_ARMOR).add(ModItems.DEATH_LEGGINGS.get());
         tag(ItemTags.FOOT_ARMOR).add(ModItems.DEATH_BOOTS.get());
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.RELIC_HELMET.get());
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.RELIC_CHESTPLATE.get());
+        tag(ItemTags.LEG_ARMOR).add(ModItems.RELIC_LEGGINGS.get());
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.RELIC_BOOTS.get());
     }
 }

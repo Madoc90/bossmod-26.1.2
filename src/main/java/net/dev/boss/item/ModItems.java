@@ -24,6 +24,8 @@ public class ModItems {
             properties -> new Item(properties.food(ModFoods.HERO_APPLE, ModFoods.HERO_APPLE_CONSUMABLE)));
     public static final DeferredItem<Item> CURSED_BREAD = ITEMS.registerItem("cursed_bread",
             properties -> new Item(properties.food(ModFoods.CURSED_BREAD, ModFoods.CURSED_BREAD_CONSUMABLE)));
+    public static final DeferredItem<Item> VOID_BERRY = ITEMS.registerItem("void_berry",
+            properties -> new Item(properties.food(ModFoods.VOID_BERRY, ModFoods.VOID_BERRY_CONSUMABLE)));
 
     public static final DeferredItem<Item> HERO_SWORD = ITEMS.registerItem("hero_sword",
             properties -> new Item(properties.sword(ModToolTiers.HERO, 4, -2.4f)));
@@ -56,6 +58,14 @@ public class ModItems {
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.DEATH_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
     public static final DeferredItem<Item> DEATH_BOOTS = ITEMS.registerItem("death_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.DEATH_ARMOR_MATERIAL, ArmorType.BOOTS)));
+    public static final DeferredItem<Item> RELIC_HELMET = ITEMS.registerItem("relic_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RELIC_ARMOR_MATERIAL, ArmorType.HELMET)));
+    public static final DeferredItem<Item> RELIC_CHESTPLATE = ITEMS.registerItem("relic_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RELIC_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+    public static final DeferredItem<Item> RELIC_LEGGINGS = ITEMS.registerItem("relic_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RELIC_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+    public static final DeferredItem<Item> RELIC_BOOTS = ITEMS.registerItem("relic_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RELIC_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

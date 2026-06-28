@@ -6,6 +6,7 @@
 
   "item.bossmod.hero_apple": "Hero Apple",
   "item.bossmod.cursed_bread": "Cursed Bread",
+  "item.bossmod.void_berry": "Void Berry",
 
   "item.bossmod.hero_sword": "Hero Sword",
   "item.bossmod.sword_of_steve": "Sword of Steve",
@@ -23,6 +24,10 @@
   "item.bossmod.death_chestplate": "Death Chestplate",
   "item.bossmod.death_leggings": "Death Leggings",
   "item.bossmod.death_boots": "Death Boots",
+  "item.bossmod.relic_helmet": "Relic Helmet",
+  "item.bossmod.relic_chestplate": "Relic Chestplate",
+  "item.bossmod.relic_leggings": "Relic Leggings",
+  "item.bossmod.relic_boots": "Relic Boots",
 
   "block.bossmod.cursed_block": "Cursed Block",
   "block.bossmod.cursed_ore": "Cursed Ore",

@@ -207,6 +207,40 @@ public class ModRecipeProvider extends RecipeProvider {
                 .group("relic")
                 .save(output);
 
+        shaped(RecipeCategory.COMBAT, ModItems.RELIC_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', ModItems.RELIC_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RELIC_INGOT.get()), has(ModItems.RELIC_INGOT))
+                .group("relic")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.RELIC_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.RELIC_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RELIC_INGOT.get()), has(ModItems.RELIC_INGOT))
+                .group("relic")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.RELIC_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.RELIC_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RELIC_INGOT.get()), has(ModItems.RELIC_INGOT))
+                .group("relic")
+                .save(output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.RELIC_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.RELIC_INGOT.get())
+                .unlockedBy(getHasName(ModItems.RELIC_INGOT.get()), has(ModItems.RELIC_INGOT))
+                .group("relic")
+                .save(output);
+
         shapeless(RecipeCategory.MISC, ModItems.CURSED_INGOT.get(), 9)
                 .requires(ModBlocks.CURSED_BLOCK)
                 .unlockedBy(getHasName(ModBlocks.CURSED_BLOCK.get()), has(ModBlocks.CURSED_BLOCK))

@@ -23,6 +23,7 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.CURSED_BREAD.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.HOLLOW_GEM.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.RELIC_INGOT.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.VOID_BERRY.get(), ModelTemplates.FLAT_ITEM);
 
         itemModels.generateFlatItem(ModItems.HERO_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.SWORD_OF_STEVE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
@@ -40,6 +41,10 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateTrimmableItem(ModItems.DEATH_CHESTPLATE.get(), ModArmorMaterials.DEATH_KEY, ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
         itemModels.generateTrimmableItem(ModItems.DEATH_LEGGINGS.get(), ModArmorMaterials.DEATH_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
         itemModels.generateTrimmableItem(ModItems.DEATH_BOOTS.get(), ModArmorMaterials.DEATH_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+        itemModels.generateTrimmableItem(ModItems.RELIC_HELMET.get(), ModArmorMaterials.RELIC_KEY, ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModels.generateTrimmableItem(ModItems.RELIC_CHESTPLATE.get(), ModArmorMaterials.RELIC_KEY, ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModels.generateTrimmableItem(ModItems.RELIC_LEGGINGS.get(), ModArmorMaterials.RELIC_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModels.generateTrimmableItem(ModItems.RELIC_BOOTS.get(), ModArmorMaterials.RELIC_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
 
 
         /* BLOCKS */
